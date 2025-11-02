@@ -8,7 +8,7 @@ export default async function page ()   {
         style={{ minHeight: "92vh" }}
       ></div>
       <div className="snap-center container col-span-3 p-8 bg-white ">
-        <h1>TRIP Contract Services Privacy Policy</h1>
+         <h1>Privacy Policy</h1>
         <p className='m-2'>
           Effective Date:
         </p><br/>
@@ -38,8 +38,8 @@ export default async function page ()   {
         <p className='ml-5'> - Business Registration (for Company)</p><br/>
         <p className='ml-5'> - TIN Number (for Company)</p><br/>
         <p className='ml-5'> - Transaction Receipts (for all users)</p><br/>
-        <h2>B. identity Verification</h2>
-        <p className='m-2'><b> - National ID Card Fayda Identification Number and the card’s frontside and backside photos
+        <h2>B. Identity Verification</h2>
+        <p className='ml-5'><b> - National ID Card Fayda Identification Number and the card’s frontside and backside photos
         </b></p><br/>
         <h2>C. Collected Usage Data</h2>
         <p className='ml-5'> - Subscribed routes</p><br/>
@@ -133,7 +133,7 @@ export default async function page ()   {
 
         <p className='m-2'>If you have any questions or concerns regarding this policy, reach out to:</p><br/>
         <h3>TRIP Contract Services Privacy Team</h3>
-        <p className='m-2'>Email: triptransports@gmail.com</p><br/>
+        <p className='m-2'>Email: <i><b>triptransports@gmail.com</b></i></p><br/>
         <h2>⚠️ Important Note on National ID Retention</h2>
         <p className='m-2'>While we respect your right to be forgotten, <b>we retain your National ID number (FIN) even after account deletion</b> to meet legal, fraud prevention, and security obligations. We minimize access, encrypt storage, and never use this data for marketing or profiling purposes.</p>
 
