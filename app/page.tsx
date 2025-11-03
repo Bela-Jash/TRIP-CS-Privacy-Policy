@@ -2,12 +2,12 @@ import React from "react";
 
 export default async function page ()   {
   return (
-    <div className="grid grid-cols-5 gap-4">
+    <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
       <div
-        className="h-full justify-items-center text-white justify-center bg-gradient-to-tl from-teal-400 to bg-[#6d28d9]"
+        className="hidden lg:block h-full justify-items-center text-white justify-center bg-gradient-to-tl from-teal-400 to bg-[#6d28d9]"
         style={{ minHeight: "92vh" }}
       ></div>
-      <div className="snap-center container col-span-3 p-8 bg-white ">
+      <div className="snap-center container lg:col-span-3 p-8 bg-white ">
          <h1>Privacy Policy</h1>
         <p className='m-2'>
           Effective Date:
@@ -139,7 +139,7 @@ export default async function page ()   {
 
       </div>
       <div
-        className="h-full justify-items-center text-white justify-center bg-gradient-to-tl from-teal-400 to bg-[#6D28D9]"
+        className="hidden lg:block h-full justify-items-center text-white justify-center bg-gradient-to-tl from-teal-400 to bg-[#6D28D9]"
         style={{ minHeight: "92vh" }}
       ></div>
     </div>
